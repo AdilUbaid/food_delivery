@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "D:/flutter 2024/flutter_food/linux"
+    "cmake.sourceDirectory": "D:/flutter 2024/flutter_food/linux",
+    "java.configuration.updateBuildConfiguration": "interactive"
 }
