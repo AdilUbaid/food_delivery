@@ -13,16 +13,18 @@ class _SignupScreenState extends State<SignupScreen> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: Padding(
-              padding: EdgeInsetsGeometry.all(15),
-              child: Column(
-      children: [
-        Image.asset(
-          'assets/6343825.jpg',width: double.maxFinite,
-          height: 500,fit: BoxFit.cover,
-        ),
-      ],
-              ),
+        padding: EdgeInsetsGeometry.all(15),
+        child: Column(
+          children: [
+            Image.asset(
+              'lib/assets/6343825.jpg',
+              // width: double.maxFinite,
+              // height: 500,
+              // fit: BoxFit.cover,
             ),
+          ],
+        ),
+      ),
     );
   }
 }
