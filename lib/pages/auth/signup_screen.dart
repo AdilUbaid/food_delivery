@@ -8,6 +8,8 @@ class SignupScreen extends StatefulWidget {
 }
 
 class _SignupScreenState extends State<SignupScreen> {
+  TextEditingController emailController = TextEditingController();
+  TextEditingController passwordController = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -22,6 +24,23 @@ class _SignupScreenState extends State<SignupScreen> {
               // height: 500,
               // fit: BoxFit.cover,
             ),
+            TextField(
+              controller: emailController,
+              decoration: InputDecoration(
+                  labelText: "email",
+                  border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(10))),
+            ),
+            SizedBox(
+              height: 10,
+            ),
+            TextField(
+              controller: passwordController,
+              decoration: InputDecoration(
+                  labelText: "password",
+                  border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(10))),
+            )
           ],
         ),
       ),
